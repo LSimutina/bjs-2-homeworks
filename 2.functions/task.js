@@ -25,8 +25,6 @@ function getArrayParams(...arr) {
 	}
 }
 
-getArrayParams(1, 2, 3, 4, 5, 6, 7, 10, 11, 12);
-
 function summElementsWorker(...arr) {
 	let sum = 0;
 	if (arr.length == 0) {
